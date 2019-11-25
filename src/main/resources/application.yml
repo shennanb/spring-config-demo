@@ -1,0 +1,35 @@
+server:
+  port: 8899
+spring:
+#  security:
+#    user:
+#      name: wafer
+#      password: wafer
+#  profiles:
+#    active: native
+#  cloud:
+#    config:
+#      server:
+#        native:
+#          search-locations: ./config
+#          search-locations: F:/ChromeCoreDownloads/config-only-a-demo-master/config
+  mail:
+    default-encoding: utf-8
+    host: smtp.qq.com
+    password: nwpifwkzglyrcabb
+    port: 25
+    protocol: smtp
+    username: 378191876@qq.com
+
+  redis:
+    database: 0
+    host: 118.25.213.82
+    port: 6379
+    password: MyRedis@#
+    timeout: 3000ms
+    lettuce:
+      pool:
+        max-active: 8
+        max-wait: -1ms
+        max-idle: 8
+        min-idle: 0
